@@ -1,0 +1,231 @@
+:root{
+    --fondo: #FFF9EB;
+    --navbar: #4D0A26;
+    --titulos: #c02249;
+    --footer: #4D0A26;
+    --texto: #212529;
+    --titulo-principal: #000000;
+}
+
+body{
+    background-color: var(--fondo) !important;
+    margin: 0;
+    padding: 0;
+}
+/*HERO SECTION*/
+#proyecto{
+    font-family: 'Playfair Display', Arial;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    color: var(--titulo-principal) !important;
+    margin-top: 65px;
+}
+#conectando{
+    font-family: 'Playfair Display', Arial;
+    color: var(--titulos) !important;
+    font-weight: bolder;
+}
+.navbar{    
+    background-color: var(--navbar) !important;
+}
+.item_navbar{
+    font-family: "Lato", Arial;
+    color: var(--texto);
+    text-decoration: none;
+    padding: 10px;
+}
+/*CARRUSEL*/
+.p_carrusel{
+    color:#f8fafc;
+    background-color: #000000c7;
+    border-radius: 5px;
+    width: fit-content;
+    margin: 5px auto;
+    font-family: 'Lato', Arial ;
+    font-size: 17px;
+    padding: 5px;
+}
+#carouselExampleCaptions2{
+    margin: 10px 0 10px 0;
+}
+/*CSS GENERAL PARA TODA LA PÁGINA*/
+.subtitulos{
+    font-family: 'Playfair Display', Arial;
+    background-color: var(--titulos);
+    color: var(--fondo);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 10px auto 10px auto;
+    width: 70%;
+}
+.parrafos{
+    font-family: "Lato", Arial;
+    color: var(--texto);
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 17px;
+    margin: 5px;
+}
+.negrita{
+    color:#4D0A26;
+    font-weight: bold;
+    font-style: italic;
+}
+.carousel-item img{
+    width: 100%;
+    max-height: 650px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.h3_bodega{
+    background-color: #367034;
+    color: #f8fafc;
+    text-align: center;
+    padding: 5px;
+    font-size: 19px;
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+.h3_subtitulos{
+    font-family: "Lato";
+    color:#f8fafc;
+    background-color: #367034;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    width: fit-content ;
+    font-weight: bold;
+}
+.imagenes{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: auto;
+}
+#imagen_historia{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: auto;
+}
+.margen{
+    padding: 20px;
+}
+li{
+    list-style: none;
+}
+
+
+
+.fecha{
+    background-color: #367034;
+    padding: 4px;
+    border-radius: 5px;
+    color: #f8fafc;
+}
+
+
+
+
+
+/*PIE DE LA PÁGINA*/
+#pie{
+    background-color:#4D0A26;
+    margin: 10px 0 0 0;
+    padding: 5px;
+}
+#p_pie{
+    text-align: center;
+    color: #f8fafc;
+    font-family: "Lato";
+    font-size: 17px;
+}
+
+
+#separacion-hist{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+.separar-proceso{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.separacion-proce2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.anecdotas-sep{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.anecdotas-sep2{
+    width: 100%;
+}
+
+/*CARDS*/
+.card{
+    margin: 20px 20px 20px 20px;
+}
+.card-title{
+    background-color: #367034 !important;
+    color: #f8fafc !important;
+    padding: 5px;
+    font-family: "Lato";
+    border-radius: 5px;
+}
+
+@media (max-width: 777px) {
+
+    #separacion-hist{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+    .separar-proceso{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.separacion-proce2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#proce2imagen{
+    order: 2;
+}
+
+#proce2{
+    order: 1;
+}
+
+.imagenes{
+    width: 325px;
+    height: 350px;
+    margin: auto;
+}
+
+#rutaimg{
+    width: 100%;
+    height: auto;
+}
+
+.anecdotas-sep{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
